@@ -40,7 +40,7 @@ var newLine = [];
 
 function currentLine(currentCustomer) {
   for(var i = 0; i < currentCustomer.length; i++) {
-    newLine.push((i + 1)+ ". " + currentCustomer[i]);
+      return newLine.push((i + 1)+ ". " + currentCustomer[i]);
   }
 
   if(currentCustomer.length === 0) {
